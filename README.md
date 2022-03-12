@@ -67,7 +67,6 @@ The coding for this project can be completed using the Project Workspace IDE pro
 
 - models
 | - train_classifier.py
-| - classifier.pkl                    # saved model.
 
 - ETL Pipeline Preparation.ipynb
 - ML Pipeline Preparation.ipynb
