@@ -27,6 +27,9 @@ def clean_data(df):
     category_colnames = [x.split('-')[0] for x in row.values[0]]
     categories.columns = category_colnames
     
+    # Cut 'related-2' in related column
+    categories = categories[categories['related'] != 'related-2']
+    
     #setting data types.
     for column in categories:
         categories[column] = categories[column].astype('str').str[-1]
@@ -42,7 +45,7 @@ def save_data(df, database_filename):
     engine = create_engine(f'sqlite:///{database_filename}')
     
     #save to sql
-    df.to_sql('disaster_response', engine, index=False)
+    df.to_sql('disaster_response', engine, if_exists='replace', index=False)
 
 
 def main():
