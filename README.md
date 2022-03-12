@@ -73,6 +73,21 @@ The coding for this project can be completed using the Project Workspace IDE pro
 - README.md
 ```
 
+To run the project on [http://0.0.0.0:3000/](https://052b8c06e71c40e99045311a7e35ff96-3000.udacity-student-workspaces.com/) by
+ 
+STEP 1: Run __process_data.py__
+
+Python scripts can be able to run with arguments as `python process_data.py disaster_messages.csv disaster_categories.csv DisasterResponse.db`
+
+STEP 2: Run __train_classifier.py__ 
+
+Python scripts can be able to run with arguments as `python train_classifier.py ../data/DisasterResponse.db classifier.pkl`
+
+STEP 3: Run __run.py__ 
+
+Python scripts can be able to run with arguments as `python run.py`
+
+
 
 ## How to Interract with Your Project.
 
