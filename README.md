@@ -1,8 +1,8 @@
 # Project 2: Disaster Response Pipelines
 Project Submission : Data Science at Udacity.
 
-## Installations.
 
+## Installations.
 This project was written on the [Project Workspace IDE](https://classroom.udacity.com/) provided and Jupyter application by python version 3.9.5. To check python by `python --version`. 
 Using the libary `pandas`, `sqlite3` to loads the data. `nltk`, `pandas` to clean the data. `sklearn` to analyze the data. `pickle`, `pandas` to save the data.
 `flask`, `json`, `plotly` to visualyzation. You can install the library as a terminal on the iOS system as follows:
@@ -16,6 +16,7 @@ pip install flask
 pip install sklearn
 pip install sqlalchemy
 ```
+
 
 ## Project Details.
 This project using disaster data from [Appen](https://appen.com/) to analyze by ETL piepline, Machine Learning pipeline and Flask visualzation, respectively.
@@ -87,6 +88,10 @@ STEP 3: Run __run.py__, Python scripts can be able to run with arguments as,
 
 
 ## How to Interract with Your Project.
+I learned and understood the disaster data to analyze that:
+* ETL: Load data, cleaning data and save to SQLite databases.
+* ML: Load data form  SQLite database, analyze by using classifier model and save to pickle.
+* Web app: Get the data form pickle to visualization on web application.
 
 
 
